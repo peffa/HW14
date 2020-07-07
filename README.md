@@ -64,7 +64,11 @@ package.json - Contains relevant metadata for the project, which gives informati
 
 server.js - Establishes our requirements to run the application and the port to which we are syncing.
 
+## Potential Changes
+Customizable positioning and color to add uniqueness for the business it’s being used for.
 
+
+---
 
 
 # Unit 14 Sequelize Homework: Reverse Engineering Code
