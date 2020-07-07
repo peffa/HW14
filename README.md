@@ -21,7 +21,7 @@ CREATE DATABASE passport_demo;
 4.  Fourth, (after the npm installation has completed) run “node server” in the terminal to connect.
 
 5.  Fifth, open your web browser and goto “http://localhost:8080” you should then see the home page pictured below:
-
+![](hw14demo1.PNG)
 
 
 ## File Explanation
@@ -46,11 +46,14 @@ signup.js - Checks that email and password are not blank, calls /api/signup then
 styles.css - Adds a margin to the top of the page.
 
 login.html - (pictured below) Uses a bootstrap stylesheet to present the user with an area to log in or sign up, which will then redirect them to the signup page.
+![](hw14demo2.PNG)
 
 members.html - (pictured below) This is the members page utilizing a bootstrap stylesheey for the user once they have successfully logged in and includes a Logout button that redirects the user to the login page.
+![](hw14demo3.PNG)
 
 
 signup.html - (pictured below) Is a sign up form for a user with an area for their email address, password, and buttons to either sign up which takes them to the member page, or log in here to redirect to the login page.
+![](hw14demo1.PNG)
 
 
 api-routes.js - Requires models and passport, this will check that the entered credentials are valid and send the user to the members page when logging in, sign up a new user and redirect them to the login page for their first login, and the ability for a user to log out then return them to the homepage.
